@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 import it.polito.tdp.Lab01.model.Parole;
+import it.polito.tdp.Lab01.model.ParoleLista;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -46,7 +47,7 @@ public class FXMLController {
     private TextArea txtResult;
     
     @FXML 
-    Parole ppp = new Parole();
+    ParoleLista ppp = new ParoleLista();
     
 
     @FXML
