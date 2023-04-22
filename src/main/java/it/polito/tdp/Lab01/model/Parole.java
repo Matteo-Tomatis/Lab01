@@ -14,12 +14,12 @@ public class Parole {
 	
 	public void cancelParola(String p) {
 		elencoParole.remove(p);
-    	Collections.sort(elencoParole);
+    	Collections.sort(elencoParole, String.CASE_INSENSITIVE_ORDER);
 	}
 	
 	public void addParola(String p) {
-    	elencoParole.add(p.toLowerCase());
-    	Collections.sort(elencoParole);
+    	elencoParole.add(p);
+    	Collections.sort(elencoParole, String.CASE_INSENSITIVE_ORDER);
 	}
 	
 	public List<String> getElenco() {
